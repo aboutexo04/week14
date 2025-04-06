@@ -2,8 +2,8 @@ import { useState } from "react";
 
 const steps = [
   { 
-    title: "Week 13 - Ball Movement",
-    description: "Today, you'll create a few blocks to describe different movement of ball each.",
+    title: "Week 14 - Soccer Game",
+    description: "Today, you'll create a soccer game.",
     images: ["images/first.png"] // Removed leading slash
   },
   {
@@ -13,42 +13,41 @@ const steps = [
   },
   
   {
-    title: "Step 1: Open Scratch and remix today's start project(week13)",
-    description: "Please share the start file I provided at the studio Week13. My Stuff -> My Studio -> Week13 -> Start File",
+    title: "Step 1: Open Scratch and remix today's start project(week14)",
+    description: "Please share the start file I provided at the studio Week14.",
   },
   {
-    title: "Step 2: Let's start coding with the first block",
-    description: "The ball moves when the '1' key is pressed.",
-    images: ["images/1.png"] // Removed leading slash
+    title: "Step 2: Let's start coding with the player sprite",
+    description: "The player is constantly moving.",
+    images: ["images/player1.png"] // Removed leading slash
   },
   {
-    title: "Step 3: Let's start coding with the second block",
-    description: "The ball moves when the '2' key is pressed.",
-    images: ["images/2.png"] // Removed leading slash
+    title: "Step 3: player sprite",
+    description: "You can control the direction with the arrow keys.",
+    images: ["images/player2.png"] // Removed leading slash
   },
   {
-    title: "Step 4: Let's start coding with the third block",
-    description: "The ball moves when the '3' key is pressed.",
-    images: ["images/3.png"] // Removed leading slash
+    title: "Step 4: Let's code the goalkeeper sprite",
+    description: "The goalkeeper is constantly moving.",
+    images: ["images/goalkeeper.png"] // Removed leading slash
   },
   {
-    title: "Step 5: Let's start coding with the fourth block",
-    description: "The ball moves when the '4' key is pressed.",
-    images: ["images/4.png"] // Removed leading slash
+    title: "Step 5: Let's code the ball sprite",
+    description: "If space key is pressed, ball should start, and if the ball touches the goalkeeper you lose score.",
+    images: ["images/ball1.png"] // Removed leading slash
   },
   {
-    title: "Step 6: Let's start coding with the fifth block",
-    description: "The ball moves when the '5' key is pressed.",
-    images: ["images/5.png"] // Removed leading slash
+    title: "Step 6: Let's code the ball sprite",
+    description:"The blocks control the time limit, and the score of the game.",
+    images: ["images/ball2.png"] // Removed leading slash
   },
   {
-    title: "Step 7: Let's start coding with the sixth block",
-    description: "The ball moves when the '6' key is pressed.",
-    images: ["images/6.png"] // Removed leading slash
+    title: "Step 7: Let's goal sprite",
+    images: ["images/goal.png"] // Removed leading slash
   },
   {
     title: "Step 8: Don't forget to share your projects",
-    description: "Please add your projects to the studio Week12.",
+    description: "Please add your projects to the studio Week14.",
   },
 ];
 
